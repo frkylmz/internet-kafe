@@ -1,0 +1,41 @@
+body{
+    width: auto;
+    height: 732px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.height{
+    height: 732px;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+@media (min-width: 1200px) {
+    .image{
+        min-height: 732px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .image{
+        height: 945px;
+    }
+    .height{
+        height: 945px;
+    }
+
+    .form-group{
+        margin-top: 200px;
+    }
+}
+
+
+
+
+
+
